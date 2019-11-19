@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">Laundry Pune</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_notif">Notification</string>
+    <string name="nav_user">User</string>
+    <string name="nav_order">Order</string>
+    <string name="no_order">Your Have No Order</string>
+    <string name="info_imp"></string>
+
+    <string-array name="our_list_home">
+        <item>Iron</item>
+        <item>Press</item>
+        <item>Laundry</item>
+        <item>Iron</item>
+        <item>Press</item>
+        <item>Laundry</item>
+        <item>Iron</item>
+        <item>Press</item>
+        <item>Laundry</item>
+        <item>Iron</item>
+        <item>Press</item>
+        <item>Laundry</item>
+        <item>Iron</item>
+        <item>Press</item>
+        <item>Laundry</item>
+        <item>Iron</item>
+        <item>Press</item>
+        <item>Laundry</item>
+        <item>Iron</item>
+        <item>Press</item>
+        <item>Laundry</item>
+    </string-array>
+
+    <string-array name="hour_list">
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+
+    <string-array name="am_pm">
+        <item>AM</item>
+        <item>PM</item>
+    </string-array>
+
+    <string-array name="minute_list">
+        <item>00</item>
+        <item>15</item>
+        <item>30</item>
+        <item>45</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

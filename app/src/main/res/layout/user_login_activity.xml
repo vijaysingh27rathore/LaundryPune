@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img5"
+    android:gravity="center"
+    >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="श्री गणेश ड्राय क्लिनर्स "
+            android:textColor="#fff"
+            android:textSize="35dp"
+            android:textStyle="italic"
+            />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_weight="1"
+    android:gravity="center"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="bottom"
+        android:layout_weight="1"
+        android:layout_marginBottom="40dp"
+        >
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:layout_height="50dp"
+            android:textColorHint="#fff"
+            android:textColorLink="#fff"
+            android:background="@drawable/edit_text"
+            android:hint="Enter Username"
+            android:textColor="#fff"
+            android:padding="10dp"
+            android:paddingLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:drawableLeft="@drawable/ic_login_user"
+            />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:layout_height="50dp"
+            android:textColorHint="#fff"
+            android:textColorLink="#fff"
+            android:background="@drawable/edit_text"
+            android:inputType="textPassword"
+            android:hint="  Enter Password"
+            android:textColor="#fff"
+            android:padding="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:drawableLeft="@drawable/ic_login_password"
+            />
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:inputType="text"
+            android:text="Login"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#ffffff"
+            android:background="#9298"
+            android:textStyle="bold"
+            android:longClickable="false"
+            android:onClick="onClick"
+
+            />
+
+        <TextView
+            android:id="@+id/forgot_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="forgot your password?"
+            android:layout_gravity="end"
+            android:layout_marginTop="15dp"
+            android:textColor="#fff"
+            android:layout_marginRight="20dp"
+            android:textSize="15dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_weight="6"
+        >
+        <TextView
+            android:id="@+id/btn_signup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Don't have an Account create one."
+            android:textColor="#C1BDBD"
+            android:textSize="20dp"
+            android:layout_marginTop="30dp"
+            android:gravity="bottom"
+            />
+    </LinearLayout>
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="bottom|center"
+        android:layout_weight="3.6"
+        >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#d1dce2"
+            android:layout_marginBottom="10dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ranaus"
+            android:layout_marginBottom="15dp"
+            android:textColor="#fff"
+            />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OderFragment"
+    android:orientation="vertical"
+    android:gravity="center|top"
+    android:background="@drawable/dry_clean2"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ganesh_cleaner"
+        android:textColor="#000"
+        android:textSize="35dp"
+        android:textStyle="italic"
+        android:layout_marginTop="10dp"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="We offer service in PCMC(Pune) only.
+Areas we offer services:-
+Wakad, Chinchwad, Datta Nagar, Thergaon."
+                android:textSize="20sp"
+                android:textColor="#F31E12"
+                />
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_gravity="center"
+                android:layout_height="50dp"
+                android:textColorHint="#000"
+                android:textColorLink="#000"
+                android:background="@color/white_custom"
+                android:hint="Enter Name"
+                android:textColor="#000"
+                android:padding="10dp"
+                android:paddingLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:paddingStart="20dp"
+                />
+
+            <EditText
+                android:id="@+id/address"
+                android:layout_width="match_parent"
+                android:layout_gravity="center"
+                android:layout_height="50dp"
+                android:textColorHint="#000"
+                android:textColorLink="#000"
+                android:background="@color/white_custom"
+                android:hint="Enter Address"
+                android:textColor="#000"
+                android:padding="10dp"
+                android:paddingLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:paddingStart="20dp"
+                />
+
+            <EditText
+                android:id="@+id/phone_number"
+                android:layout_width="match_parent"
+                android:layout_gravity="center"
+                android:layout_height="50dp"
+                android:textColorHint="#000"
+                android:textColorLink="#000"
+                android:background="@color/white_custom"
+                android:hint="Enter Phone Number"
+                android:inputType="phone"
+                android:textColor="#000"
+                android:padding="10dp"
+                android:paddingLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:paddingStart="20dp"
+                />
+
+            <EditText
+                android:id="@+id/extra"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:textColorHint="#000"
+                android:textColorLink="#000"
+                android:background="@color/white_custom"
+                android:hint="Extra or Note here..."
+                android:textColor="#000"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="20dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Choose Your Preferable Time"
+                android:textSize="25sp"
+                android:layout_marginLeft="15sp"
+                android:layout_marginTop="20dp"
+                android:textColor="#000"
+                />
+
+            <Spinner
+                android:id="@+id/spinner_hr"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/white_custom"
+                android:popupBackground="#80ffffff"
+                android:backgroundTint="#80ffffff"
+                />
+
+            <Spinner
+                android:id="@+id/spinner_min"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/white_custom"
+                android:popupBackground="#80ffffff"
+                android:backgroundTint="#80ffffff"
+
+                />
+
+            <Spinner
+                android:id="@+id/spinner_am"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/edit_text"
+                android:popupBackground="#80ffffff"
+                android:backgroundTint="#80ffffff"
+
+                />
+
+            <Button
+                android:id="@+id/btn_signup"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:inputType="text"
+                android:text="Submit"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="60dp"
+                android:textColor="#ffffff"
+                android:background="@drawable/giftcards"
+                android:textStyle="bold"
+                android:longClickable="false"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

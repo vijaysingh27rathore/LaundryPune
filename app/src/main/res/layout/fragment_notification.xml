@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NotificationFragment"
+    android:id="@+id/notif_fragment"
+    android:orientation="vertical"
+    android:background="@drawable/alphabate_images"
+    android:gravity="center|top"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ganesh_cleaner"
+        android:textColor="#fff"
+        android:textSize="35dp"
+        android:textStyle="italic"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contact Us"
+        android:textColor="#fff"
+        android:textSize="30sp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="+919765076749"
+        android:textColor="#fff"
+        android:textSize="25sp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="+919923695749"
+        android:textColor="#fff"
+        android:textSize="25sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Address:-"
+        android:textColor="#fff"
+        android:textSize="30sp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kunal Residency, Buolding No.A4 Shop No.5 Thergaon Chinchwad, Link road Thergaon Pune-411033"
+        android:textColor="#fff"
+        android:textSize="25sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        />
+</LinearLayout>

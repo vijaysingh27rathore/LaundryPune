@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserFragment"
+    android:id="@+id/user_fragment"
+    android:orientation="vertical"
+    android:background="@drawable/text_image"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ganesh_cleaner"
+            android:textColor="#fff"
+            android:textSize="35sp"
+            android:textStyle="italic"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="User Information"
+            android:textColor="#fff"
+            android:textSize="30sp"
+            android:textStyle="italic"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_weight="1">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/user_name"
+                        android:layout_width="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_height="50dp"
+                        android:textColorHint="#fff"
+                        android:textColorLink="#fff"
+                        android:background="@drawable/edit_text"
+                        android:hint="Name"
+                        android:textColor="#fff"
+                        android:padding="10dp"
+                        android:paddingLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="20dp"
+                        android:drawableLeft="@drawable/ic_login_user"
+                        />
+
+                    <TextView
+                        android:id="@+id/name"
+                        android:layout_width="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_height="50dp"
+                        android:textColorHint="#fff"
+                        android:textColorLink="#fff"
+                        android:background="@drawable/edit_text"
+                        android:hint="Name"
+                        android:textColor="#fff"
+                        android:padding="10dp"
+                        android:paddingLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="20dp"
+                        android:drawableLeft="@drawable/ic_login_user"
+                        />
+
+                    <TextView
+                        android:id="@+id/address"
+                        android:layout_width="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_height="50dp"
+                        android:textColorHint="#fff"
+                        android:textColorLink="#fff"
+                        android:background="@drawable/edit_text"
+                        android:hint="Address"
+                        android:textColor="#fff"
+                        android:padding="10dp"
+                        android:paddingLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="20dp"
+                        android:drawableLeft="@drawable/ic_login_user"
+                        />
+
+                    <TextView
+                        android:id="@+id/phone_number"
+                        android:layout_width="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_height="50dp"
+                        android:textColorHint="#fff"
+                        android:textColorLink="#fff"
+                        android:background="@drawable/edit_text"
+                        android:hint="Phone Number"
+                        android:textColor="#fff"
+                        android:padding="10dp"
+                        android:paddingLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="20dp"
+                        android:drawableLeft="@drawable/ic_login_user"
+                        />
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:inputType="text"
+                        android:text="Update Info"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="60dp"
+                        android:textColor="#ffffff"
+                        android:background="#9298"
+                        android:textStyle="bold"
+                        android:longClickable="false"
+
+                        />
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="top|center"
+            android:layout_weight="3.6"
+            >
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#d1dce2"
+                android:layout_marginBottom="10dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ranaus"
+                android:layout_marginBottom="15dp"
+                android:textColor="#fff"
+                />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>
